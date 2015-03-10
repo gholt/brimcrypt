@@ -6,9 +6,8 @@ AES-256 with each block signed using SHA-256.
 
 [API Documentation](http://godoc.org/github.com/gholt/brimcrypt)
 
-The master branch is the latest stable version.  
-Other branches like v1 are also stable versions.  
-The dev branch is the latest development work.  
+This is the latest development area for the package.  
+For a stable version of the package, see http://github.com/gholt/brimcrypt-v1  
 
 > Copyright 2014 Gregory Holt. All rights reserved.  
 > Use of this source code is governed by a BSD-style  
