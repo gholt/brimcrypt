@@ -1,18 +1,15 @@
-// Copyright 2014 Gregory Holt. All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-
 package brimcrypt
 
 import (
 	"bytes"
-	"code.google.com/p/go.crypto/ssh/terminal"
 	"crypto/sha256"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"time"
+
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 // NoKeyAndNoPromptError indicates no key could be determined and interactively
